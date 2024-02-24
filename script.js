@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     loader.classList.add('loader-hidden');
 
     loader.addEventListener("transitionend", () => {
-        element.classList.remove("loader-container");
+        xyz.classList.remove("loader-container");
 
     })
 
