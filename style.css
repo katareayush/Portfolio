@@ -10,6 +10,7 @@
 
 body{
   background-color: #060606;
+  font-family: sans-serif;
   }
 
 #navbar a{
@@ -18,6 +19,11 @@ body{
     padding: 14px 20px;
     float: inline;   
     top: 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1cm 1cm 1cm black;
+    
 }
 
 #navbar {
