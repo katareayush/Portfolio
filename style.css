@@ -11,6 +11,7 @@
 body{
   background-color: #060606;
   font-family: sans-serif;
+  color: white;
   }
 
 #navbar a{
@@ -35,4 +36,8 @@ body{
    transform: translateX(-50%);
    
     
+}
+
+.slash {
+  color: #4e6cf3
 }
