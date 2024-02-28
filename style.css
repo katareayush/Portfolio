@@ -19,7 +19,36 @@ body {
   font-size: 1.5rem;
   font-style: italic;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 1cm 1cm 1cm black;
+  position: relative; /* Add relative positioning */
+}
+
+#navbar a::after {
+  content: '';
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #4e6cf3; /* Set underline color */
+  transition: width 0.3s, left 0.3s; /* Add transition for animation */
+  transform: translateX(-50%);
+}
+
+#navbar a:hover::after {
+  width: calc(100% - 40px); /* Expand width on hover */
+  left: 20px; /* Start from middle */
+}
+
+#navbar a:nth-child(2)::after {
+  background-color: #ff6f61; /* Change underline color for second link */
+}
+
+#navbar a:nth-child(3)::after {
+  background-color: #ffd166; /* Change underline color for third link */
+}
+
+#navbar a:nth-child(4)::after {
+  background-color: #06d6a0; /* Change underline color for fourth link */
 }
 
 #navbar {
@@ -61,7 +90,7 @@ body {
 
 .reach-out-container {
   text-align: center;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px; 
 }
 
 .reach-out-button:hover {

@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 
     loader.addEventListener("transitionend", () => {
         xyz.classList.remove("loader-container");
-
+        // need to correct this
     })
 
 })
