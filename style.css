@@ -1,108 +1,72 @@
 .photo {
-   
-    height: 125px;
-    position: relative; 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%);
-    
+  height: 125px;
+  position: relative; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
 }
 
-body{
+body {
   background-color: #060606;
   font-family: sans-serif;
   color: white;
-  }
+}
 
-#navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    float: inline;   
-    top: 0;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 1cm 1cm 1cm black;
-    
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1cm 1cm 1cm black;
 }
 
 #navbar {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   position: fixed; 
-   top: 0%;
-   left: 50%;
-   transform: translateX(-50%);
-   
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: fixed; 
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .slash {
-  color: #4e6cf3
+  color: #4e6cf3;
 }
 
-.intro p{
+.intro p {
   font-size: 1.1rem;
   color: #504f55;
   font-weight: 700;
-  
 }
 
-.intro h1{
+.intro h1 {
   font-size: 2.5rem;
   text-shadow: 1cm 1cm 1cm black;
 }
-.reach-out-button{
-  background-color:#333A73;
-  color:#ddd3d3;
-  padding:15px 30px;
-  border:none;
-  border-radius:5px;
-  font-size:16px;
-  font-weight:700;
-  cursor:pointer;
-  display:inline-block;
-  text-align:center;
-  
-}
 
-form {
-  width: 300px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  
-}
-
-textarea {
-  height: 100px;
-  
-}
-
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
+.reach-out-button {
+  background-color: #333A73;
+  color: #ddd3d3;
+  padding: 15px 30px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
   cursor: pointer;
+  display: inline-block;
+  text-align: center;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
+.reach-out-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.reach-out-button:hover {
+  background-color: #4e6cf3;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 20px;
 }
