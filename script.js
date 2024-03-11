@@ -1,10 +1,8 @@
 window.addEventListener('load', () => {
-    const loader=document.querySelector('.loader');
+    const loader = document.querySelector('.loader');
     loader.classList.add('loader-hidden');
 
     loader.addEventListener("transitionend", () => {
-        xyz.classList.remove("loader-container");
-        // need to correct this
-    })
-
-})
+        loader.remove(); // Remove the loader element from the DOM
+    });
+});

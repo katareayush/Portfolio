@@ -37,17 +37,5 @@
             
         </div>
     </footer>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var currentPage = window.location.pathname.split("/").pop(); 
-            var links = document.querySelectorAll("#navbar a");
-            links.forEach(function(link) {
-                if (link.getAttribute("href") === currentPage) {
-                    link.classList.add("active"); 
-                }
-            });
-        });
-        </script>
 </body>
 </html>

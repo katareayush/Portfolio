@@ -61,6 +61,12 @@ body {
   transform: translateX(-50%);
 }
 
+#navbar a.active {
+  color: #ff6600; 
+  font-weight: bold; 
+}
+
+
 .slash {
   color: #4e6cf3;
 }
