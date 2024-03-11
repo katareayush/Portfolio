@@ -136,4 +136,17 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  text-align: left;
+  
+  
+}
+
+.social img{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.social h2{
+  text-align: left;
 }
