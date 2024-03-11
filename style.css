@@ -10,6 +10,7 @@ body {
   background-color: #060606;
   font-family: sans-serif;
   color: white;
+  overflow-x: hidden;
 }
 
 #navbar a {
