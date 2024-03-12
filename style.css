@@ -1,16 +1,17 @@
-.photo {
-  height: 125px;
-  position: relative; 
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%);
-}
 
 body {
   background-color: #060606;
   font-family: sans-serif;
   color: white;
   overflow-x: hidden;
+}
+
+.photo {
+  height: 125px;
+  position: relative; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
 }
 
 #navbar a {
@@ -156,4 +157,108 @@ a {
 
 .social h2{
   text-align: left;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.contact-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  transform: translateX(-150px);
+
+}
+
+.contact-left{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.contact-left-title h2{
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #ff6363, #6933ff);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+  
+
+}
+
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left:25px;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: #ffffff;
+  
+}
+
+.contact-left textarea{
+  height: 120px;
+  padding-top: 15px;
+  border-radius: 25px;
+}
+
+.input-container textarea{
+  margin-bottom: 20px;
+}
+
+.contact-inputs:focus{
+  border: 3px solid #ed7627;
+  transition: 0.01s;
+}
+
+.contact-inputs::placeholder{
+  font-weight: 600;
+  color: #d9a9a9;
+}
+
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 35px;
+  background: linear-gradient(90deg, #333A73 0%, #4e6cf3 100%);
+}
+
+.contact-left button:hover{
+  background: linear-gradient(90deg, #4e6cf3 0%, #333A73 100%);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.contact-left button:focus{
+  outline: none;
+}
+
+.contact-left button img{
+  width: 20px;
+  height: 20px;
+  transform: translateX(5px);
 }
