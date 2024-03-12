@@ -1,6 +1,6 @@
 
 body {
-  background-color: #000000;
+  background-color: #000000; 
   font-family: sans-serif;
   color: white;
   overflow-x: hidden;
@@ -38,6 +38,7 @@ body {
   width: 0%;
   height: 2px;
   background-color: #4e6cf3; /* Set underline color */
+  /* background-image: linear-gradient(#ff6363 -100%, #6933ff); */
   transition: width 0.3s, left 0.3s; /* Add transition for animation */
   transform: translateX(-50%);
 }
@@ -49,14 +50,17 @@ body {
 
 #navbar a:nth-child(2)::after {
   background-color: #ff6f61; /* Change underline color for second link */
+  /* background-image: linear-gradient(#ff6363 -100%, #6933ff); */
 }
 
 #navbar a:nth-child(3)::after {
   background-color: #ffd166; /* Change underline color for third link */
+  /* background-image: linear-gradient(#ff6363 -100%, #6933ff); */
 }
 
 #navbar a:nth-child(4)::after {
   background-color: #06d6a0; /* Change underline color for fourth link */
+  /* background-image: linear-gradient(#ff6363 -100%, #6933ff); */
 }
 
 #navbar {
@@ -277,5 +281,5 @@ a {
   }
   
   ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(#ff6363, #6933ff);;
+  background-image: linear-gradient(#ff6363, #6933ff);
   }
