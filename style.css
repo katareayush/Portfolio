@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .photo {
   height: 125px;
   position: relative; 
@@ -160,10 +164,6 @@ a {
   text-align: left;
 }
 
-*{
-  box-sizing: border-box;
-}
-
 .contact-container{
   height: 100vh;
   display: flex;
@@ -269,4 +269,3 @@ a {
   transform: translateX(150px);
 }
 
-  
