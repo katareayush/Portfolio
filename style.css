@@ -6,6 +6,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 *{
   box-sizing: border-box;
 }
@@ -269,3 +271,11 @@ a {
   transform: translateX(150px);
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+   
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#ff6363, #6933ff);;
+  }
