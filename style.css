@@ -60,6 +60,7 @@ body {
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1000;
 }
 
 #navbar a.active {
@@ -168,7 +169,7 @@ a {
   display: flex;
   align-items: center;
   justify-content:space-evenly;
-  transform: translateX(-150px);
+  transform: translateX(-100px);
 
 }
 
@@ -262,3 +263,10 @@ a {
   height: 20px;
   transform: translateX(5px);
 }
+
+.contact-right img{
+  width: 400px;
+  transform: translateX(150px);
+}
+
+  
