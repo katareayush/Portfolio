@@ -6,10 +6,12 @@ footer {
     background-color: inherit;
     padding: 20px;
     text-align: center;
+
 }
 
 .social-icons {
     display: inline-block;
+    
 }
 
 .social-icons a {
@@ -32,3 +34,14 @@ footer {
     height: 50px;
     transform: translateY(9px);
 }
+
+/* p.footer-text{
+    text-align: right;
+    transform: translateY(-25px);
+    margin-bottom: 0;
+    margin-top: 0;
+} */
+
+
+
+ 
