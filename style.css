@@ -301,4 +301,19 @@ a {
   background-image: linear-gradient(#ff6363, #6933ff);
   }
 
- 
+  
+.projects h1{
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+
+.projects img{
+  width: 274px;
+  height: 154px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  float:inline-end;
+  transform: translateX(-100px);
+}
