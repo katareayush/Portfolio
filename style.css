@@ -4,6 +4,24 @@ body {
   font-family: sans-serif;
   color: white;
   overflow-x: hidden;
+
+  touch-action: none;
+    -ms-touch-action: none;
+    /* Disable double-tap to zoom on iOS */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* Prevent text resizing on double-tap */
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+html{
+  touch-action: manipulation;
+    -ms-touch-action: manipulation;
 }
 
 
