@@ -315,5 +315,35 @@ a {
   border-radius: 10px;
   margin-bottom: 20px;
   float:inline-end;
-  transform: translateX(-100px);
+  transform: translateX(20px);
+  
 }
+
+.projects{
+  margin-left: 120px;
+  margin-right: 100px;
+  
+}
+
+.projects h2{
+
+  margin-top: 20px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.projects p{
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.projects a{
+  text-decoration: none;
+  font-weight: 900;
+  background-image: linear-gradient(to right, #ff6363, #6933ff);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+
+
