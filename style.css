@@ -350,3 +350,18 @@ a {
   padding: 0px 0px 0px 20px;
 }
 
+@media screen and (max-width:680px) {
+  .intro h1{
+    font-size: 2rem;
+
+  }
+
+  .intro p{
+    font-size: 1rem;
+    
+  }
+
+  
+
+  
+}
