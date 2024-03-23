@@ -362,6 +362,36 @@ a {
     
   }
 
+  .contact-right img{
+    display: none;
+  }
+
+  .contact-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0);
+    
+  }
+
+  .projects{
+    margin-left: 75px;
+    margin-right: 50px;
+  }
+
+  .projects img{
+    margin-bottom: 100px;
+
+    transform: translateX(-20px);
+    
+  }
+
+  .projects a{
+    margin: 0px 20px 0px 0px;  
+  }
+
+
+
   
 
   
