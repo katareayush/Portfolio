@@ -5,7 +5,7 @@ body {
   color: white;
   overflow-x: hidden;
 
-  touch-action: none;
+  touch-action: pan-y;
     -ms-touch-action: none;
     /* Disable double-tap to zoom on iOS */
     -webkit-touch-callout: none;
@@ -17,7 +17,7 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    touch-action: pan-y;
+    
 }
 
 html{
