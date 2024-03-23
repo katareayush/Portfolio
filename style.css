@@ -354,7 +354,6 @@ a {
 @media screen and (max-width:680px) {
   .intro h1{
     font-size: 2rem;
-
   }
 
   .intro p{
@@ -370,11 +369,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translateX(100px);
-    width: 55%;
-    
-    
-  }
-
-    
+    transform: translateX(0);
+    margin-left: 25px;
+    margin-right: 25px; 
+  }  
 }

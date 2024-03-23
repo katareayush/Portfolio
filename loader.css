@@ -1,6 +1,6 @@
 
 
-.loader {
+/* .loader {
   
     position: absolute;
     top: 50%;
@@ -106,10 +106,10 @@
       margin-top: -37px;
       border-radius: 10px;
     }
-  }
+  } */
 
 
- /* .loader{
+  .loader{
   height: 100%;
   width: 100%;
   background-color: black;
@@ -161,4 +161,4 @@
   100%{
       opacity: 0;
   }
-} */
+} 
