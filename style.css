@@ -6,23 +6,24 @@ body {
   overflow-x: hidden;
 
   touch-action: pan-y;
-    -ms-touch-action: pan-y;
-    /* Disable double-tap to zoom on iOS */
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    /* Prevent text resizing on double-tap */
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-    
+  -ms-touch-action: pan-y;
+
+  /* Disable double-tap to zoom on iOS */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resizing on double-tap */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
-html{
+html {
+  /* Allow default touch behavior for manipulation (such as pinch-to-zoom) */
   touch-action: manipulation;
-    -ms-touch-action: manipulation;
+  -ms-touch-action: manipulation;
 }
 
 
