@@ -17,3 +17,37 @@ function loaderAnimation() {
 }
 
 loaderAnimation();
+
+
+window.onload = function() {
+    const movingImages = document.querySelector('.moving-images');
+    const logos = document.querySelectorAll('.moving-images img');
+    const gap = 20; 
+    let totalWidth = 0;
+    
+    
+    while (totalWidth < movingImages.offsetWidth) {
+      logos.forEach(logo => {
+        const clone = logo.cloneNode(true);
+        movingImages.appendChild(clone);
+      });
+      totalWidth += logos[0].offsetWidth + gap; 
+    }
+  
+    let distance = totalWidth;
+    let animationDuration = Infinity; 
+    
+    function animateImages() {
+      movingImages.style.transition = `transform ${animationDuration}ms linear`; 
+      movingImages.style.transform = `translateX(-${distance}px)`; 
+      setTimeout(() => {
+        movingImages.style.transition = 'none'; 
+        movingImages.style.transform = 'translateX(0)'; 
+        setTimeout(animateImages, 0); 
+      }, animationDuration); 
+    
+    animateImages(); 
+  };
+  
+  
+}
