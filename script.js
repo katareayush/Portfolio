@@ -8,15 +8,15 @@
 // });
 
 
-function loaderAnimation() {
-    var loader = document.querySelector(".loader")
-    setTimeout(function () {
-        loader.style.top = "-100%"
+// function loaderAnimation() {
+//     var loader = document.querySelector(".loader")
+//     setTimeout(function () {
+//         loader.style.top = "-100%"
 
-    },4200)
-}
+//     },4200)
+// }
 
-loaderAnimation();
+// loaderAnimation();
 
 
 window.onload = function() {
@@ -51,3 +51,24 @@ window.onload = function() {
   
   
 }
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navbarLinks = document.querySelectorAll("#navbar a");
+
+  navbarLinks.forEach(function(navbarLink) {
+    navbarLink.addEventListener("click", function(event) {
+      navbarLinks.forEach(link => link.classList.remove("active"));
+      this.classList.add("active");
+      localStorage.setItem("activeLink", this.getAttribute("href"));
+    });
+
+    const currentLink = navbarLink.getAttribute("href");
+    const activeLink = localStorage.getItem("activeLink");
+    if (activeLink && currentLink === activeLink) {
+      navbarLink.classList.add("active");
+    }
+  });
+});
+
+  
