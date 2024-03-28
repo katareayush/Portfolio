@@ -3,7 +3,8 @@ body {
   background-color: #000000; 
   font-family: sans-serif;
   color: white;
-  overflow-x: hidden;}
+  overflow-x: hidden;
+}
 
    /* touch-action: pan-y;
   -ms-touch-action: pan-y;
@@ -413,7 +414,7 @@ a {
 
 
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:768px) {
   .intro h1{
     font-size: 2rem;
   }
@@ -434,6 +435,28 @@ a {
     transform: translateX(0);
     margin-left: 25px;
     margin-right: 25px; 
+
+
   }  
+
+  .contact-inputs{
+    width: 320px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left:25px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #ffffff;
+    
+  }
+  
+  .contact-left textarea{
+    height: 100px;
+    padding-top: 12.5px;
+    border-radius: 25px;
+  }
 }
+
+
 
