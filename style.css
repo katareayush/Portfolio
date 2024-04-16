@@ -456,7 +456,35 @@ a {
     padding-top: 12.5px;
     border-radius: 25px;
   }
+
+  .projects {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Wrap items if they exceed container width */
+    justify-content: space-around; /* Distribute items evenly */
+    padding-left: 0; /* Remove left padding */
+    padding-right: 0; /* Remove right padding */
+    margin-left: 35px;
+  }
+
+  .projects img {
+    margin-left: 0; /* Reset margin */
+    margin-right: 0; /* Reset margin */
+    margin-bottom: 0; /* Reset margin */
+    flex: 0 1 calc(33.33% - 40px); /* Adjust image width for three-column layout */
+  }
+
+  .projects h2,
+  .projects p,
+  .projects a {
+    text-align: left; /* Reset text alignment */
+  }
+
+  .live {
+    padding-left: 0; /* Remove left padding */
+  }
 }
+
+
 
 
 
