@@ -471,8 +471,6 @@ a {
     margin-right: 0; /* Reset margin */
     margin-bottom: 0; /* Reset margin */
     flex: 0 1 calc(33.33% - 40px); /* Adjust image width for three-column layout */
-    width: 400px;
-    height: 230px;
     margin-top: 30px;
   }
 
