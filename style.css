@@ -463,7 +463,7 @@ a {
     justify-content: space-around; /* Distribute items evenly */
     padding-left: 0; /* Remove left padding */
     padding-right: 0; /* Remove right padding */
-    margin-left: 35px;
+    margin-left: 50px;
   }
 
   .projects img {
@@ -471,6 +471,9 @@ a {
     margin-right: 0; /* Reset margin */
     margin-bottom: 0; /* Reset margin */
     flex: 0 1 calc(33.33% - 40px); /* Adjust image width for three-column layout */
+    width: 400px;
+    height: 230px;
+    margin-top: 30px;
   }
 
   .projects h2,
